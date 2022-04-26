@@ -1,0 +1,23 @@
+{
+  "name": "subA_-polkadot_ts",
+  "version": "1.0.0",
+  "description": "A demo for polkadot_ts",
+  "main": "index.js",
+  "repository": "https://github.com/whtoo/subA_-polkadot_ts",
+  "author": "willson.wang <drdangran@gmail.com>",
+  "license": "MIT",
+  "private":false,
+  "scripts": {
+    "start": "node --use_strict index.js",
+    "start:dev": "nodemon --use_strict --inspect index.js",
+    "start:debug": "nodemon --use_strict --inspect index.js"
+  },
+  "dependencies": {
+    "@polkadot/api":"^7.8.1",
+    "@polkadot/types":"^7.8.1",
+    "web3":"^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
